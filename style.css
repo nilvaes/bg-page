@@ -25,6 +25,10 @@ body {
   background-color: black;
   opacity: 0.5;
   justify-content: space-around;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 5px;
+
 
 }
 
@@ -38,12 +42,12 @@ body {
 
 .nav-links ul li a {
   text-decoration: none;
-  font-size: 28px;
+  font-size: 32px;
   color: white;
 }
 
 .logo {
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 700;
   color: white;
 }
@@ -59,7 +63,7 @@ body {
 }
 
 .uga em {
-  font-size: 40px;
+  font-size: 46px;
   font-weight:450;
 }
 
@@ -70,7 +74,7 @@ body {
 }
 
 .quoter {
-  font-size: 26px;
+  font-size: 30px;
   font-style: italic;
   text-align: end;
 }
@@ -81,7 +85,9 @@ body {
   padding: 80px;
 }
 
-
+.content h2 {
+  font-size: 34px;
+}
 
 .content hr {
   background-color: black;
@@ -90,7 +96,7 @@ body {
 
 .content p {
   padding-top: 20px;
-  font-size: 17px;
+  font-size: 22px;
 }
 
 /* text-bild area */
@@ -116,7 +122,7 @@ body {
 }
 h3 {
   text-align: center;
-  font-size: 24px;
+  font-size: 30px;
   padding-top: 70px;
   padding-bottom: 20px;
 }
@@ -129,10 +135,11 @@ h3 {
   background-color:rgb(70, 68, 68);
   padding-bottom: 80px;
   max-width: 100%;
+  filter:brightness(80%);
 }
 
 .text-bild .text {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 550;
 }
 
@@ -150,24 +157,25 @@ h3 {
 .box-lower {
   display: flex;
   flex-direction: column;
-  max-width: 360px;
+  max-width: 380px;
   background-image: url("foggy-mounty.jpg");
   background-color: rgba(19, 18, 18, 0.87);
   margin-top: 120px;
   border-radius: 20px;
   padding: 10px;
   margin-bottom: 100px;
+  filter:brightness(60%)
 }
 
 .box-lower p {
   text-align: center;
   padding: 0 30px;
-  font-size: 18px;
+  font-size: 22px;
 
 }
 
 .box-lower .lower-head {
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 600;
   text-align: center;
   padding-top: 30px;
@@ -194,6 +202,7 @@ h3 {
 
 .footer .words-2 {
   font-size: 37px;
+  font-family: "Caveat", sans-serif;
   font-style: italic;
   font-weight: 700;
   padding: 0;
